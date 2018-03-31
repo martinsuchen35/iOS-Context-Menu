@@ -24,8 +24,20 @@ class FourthViewController: UIViewController {
         let url = URL(fileURLWithPath: path!)
         let request = URLRequest(url: url)
         webView.load(request)
+        
+        addCustomContextMenu()
     }
 
+    func addCustomContextMenu() {
+        let special1 = UIMenuItem(title: "Special 1", action: #selector(special))
+        let special2 = UIMenuItem(title: "Special 2", action: #selector(special))
+        UIMenuController.shared.menuItems = [special1, special2]
+    }
+    
+    @objc func special() {
+        print("special")
+    }
+    
 }
 
 
