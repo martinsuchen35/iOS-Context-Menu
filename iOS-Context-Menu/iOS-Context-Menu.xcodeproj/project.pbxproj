@@ -14,6 +14,11 @@
 		7D6439EE206FF4ED00A54CBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D6439ED206FF4ED00A54CBB /* Assets.xcassets */; };
 		7D6439F1206FF4ED00A54CBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D6439EF206FF4ED00A54CBB /* LaunchScreen.storyboard */; };
 		7D6439F9206FFB9E00A54CBB /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6439F8206FFB9E00A54CBB /* CustomTextField.swift */; };
+		7D6439FB207007C600A54CBB /* example1.html in Resources */ = {isa = PBXBuildFile; fileRef = 7D6439FA207007C600A54CBB /* example1.html */; };
+		7D6439FD207008B300A54CBB /* example2.html in Resources */ = {isa = PBXBuildFile; fileRef = 7D6439FC207008B300A54CBB /* example2.html */; };
+		7D6439FF2070092100A54CBB /* CustomWKWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6439FE2070092100A54CBB /* CustomWKWebView.swift */; };
+		7D643A012070098400A54CBB /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D643A002070098400A54CBB /* ThirdViewController.swift */; };
+		7D643A032070099F00A54CBB /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D643A022070099F00A54CBB /* FourthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		7D6439F0206FF4ED00A54CBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D6439F2206FF4ED00A54CBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D6439F8206FFB9E00A54CBB /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		7D6439FA207007C600A54CBB /* example1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = example1.html; sourceTree = "<group>"; };
+		7D6439FC207008B300A54CBB /* example2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = example2.html; sourceTree = "<group>"; };
+		7D6439FE2070092100A54CBB /* CustomWKWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomWKWebView.swift; sourceTree = "<group>"; };
+		7D643A002070098400A54CBB /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		7D643A022070099F00A54CBB /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +52,8 @@
 		7D6439D8206FF4EC00A54CBB = {
 			isa = PBXGroup;
 			children = (
+				7D6439FC207008B300A54CBB /* example2.html */,
+				7D6439FA207007C600A54CBB /* example1.html */,
 				7D6439E3206FF4ED00A54CBB /* iOS-Context-Menu */,
 				7D6439E2206FF4ED00A54CBB /* Products */,
 			);
@@ -66,6 +78,9 @@
 				7D6439EF206FF4ED00A54CBB /* LaunchScreen.storyboard */,
 				7D6439F2206FF4ED00A54CBB /* Info.plist */,
 				7D6439F8206FFB9E00A54CBB /* CustomTextField.swift */,
+				7D6439FE2070092100A54CBB /* CustomWKWebView.swift */,
+				7D643A002070098400A54CBB /* ThirdViewController.swift */,
+				7D643A022070099F00A54CBB /* FourthViewController.swift */,
 			);
 			path = "iOS-Context-Menu";
 			sourceTree = "<group>";
@@ -130,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D6439F1206FF4ED00A54CBB /* LaunchScreen.storyboard in Resources */,
+				7D6439FB207007C600A54CBB /* example1.html in Resources */,
 				7D6439EE206FF4ED00A54CBB /* Assets.xcassets in Resources */,
+				7D6439FD207008B300A54CBB /* example2.html in Resources */,
 				7D6439EC206FF4ED00A54CBB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,7 +161,10 @@
 			files = (
 				7D6439F9206FFB9E00A54CBB /* CustomTextField.swift in Sources */,
 				7D6439E9206FF4ED00A54CBB /* SecondViewController.swift in Sources */,
+				7D6439FF2070092100A54CBB /* CustomWKWebView.swift in Sources */,
+				7D643A032070099F00A54CBB /* FourthViewController.swift in Sources */,
 				7D6439E5206FF4ED00A54CBB /* AppDelegate.swift in Sources */,
+				7D643A012070098400A54CBB /* ThirdViewController.swift in Sources */,
 				7D6439E7206FF4ED00A54CBB /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
